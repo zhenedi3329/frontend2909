@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title> 
+</head>
+<style>
+    /* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Стили для body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1E1E1E;
+  color: #fff;
+}
+
+/* Стили для заголовков */  
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #F338C3;
+  text-shadow: 
+     3px 3px 0 #F338C3,
+    -1px -1px 0 #F338C3,  
+     1px -1px 0 #F338C3,
+     -1px 1px 0 #F338C3,
+      1px 1px 0 #F338C3;  
+}
+
+/* Стили для ссылок */
+a {
+  text-decoration: none;
+  color: #F338C3;
+  font-weight: 500;
+  
+  position: relative;
+}
+
+a::after {
+  content: '';
+  width: 0; 
+  height: 3px;
+  background: #F338C3;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* Стили для кнопок */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1E1E1E;
+  background: #F338C3;
+  box-shadow: 0 0 10px #F338C3,
+              0 0 20px #F338C3,
+              0 0 40px #F338C3;
+  transition: 0.5s;  
+}
+
+button:hover {
+  box-shadow: 0 0 5px #F338C3,
+              0 0 10px #F338C3,
+              0 0 20px #F338C3;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Применение анимаций */  
+h1 {
+  animation: fadeIn 1s, slideUp 0.7s ease-out;
+}
+
+button {
+  animation: fadeIn 0.5s; 
+}
+/* Стили для кнопок */
+
+.round-button {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #1E1E1E;  
+  background: #F338C3;
+  box-shadow: 0 0 10px #F338C3,
+              0 0 20px #F338C3,
+              0 0 40px #F338C3; 
+  transition: 0.5s;
+  animation: fadeIn 0.5s;              
+}
+
+.round-button:hover {
+  box-shadow: 0 0 5px #F338C3,
+              0 0 10px #F338C3,
+              0 0 20px #F338C3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1; 
+  }
+}
+
+/* Использование */
+
+<a href="#" class="round-button">Кнопка 1</a>
+
+<a href="#" class="round-button">Кнопка 2</a>
+/* Остальные стили */
+</style>
+<body>
+    
+    <header>
+        <nav>
+            
+            <a href="">Zone</a>
+            <ul>
+                
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+        <address>
+            
+            <ul>
+
+            </ul>
+        </address>
+    </header>
+
+    <main>
+        <section>
+            
+            <h1>Virtual Reality Business Solutions</h1>
+            
+        </section>
+        <section>
+           
+            <h2>Our Service</h2>
+            <p>We turn information into actionable insights. We work to understand your issues and are driven to ask better questions in the pursuit of making work.</p>
+            <ul>
+              
+                <li>
+                 
+                </li>
+                <!-- Додайте аналогічні елементи для інших послуг -->
+            </ul>
+        </section>
+        <section>
+            <!-- Заголовок розділу "Що ми робимо" (прихований) -->
+            <!-- <h2></h2> -->
+            <ul>
+                <li>
+                    <!-- Заголовок та опис діяльності -->
+                    <!-- <h3></h3> -->
+                    <!-- <p></p> -->
+                    <!-- Зображення -->
+                    <!-- <img src="" alt="" width="" height="" /> -->
+                </li>
+                <!-- Додайте аналогічні елементи для інших видів діяльності -->
+            </ul>
+        </section>
+        <section>
+            <!-- Заголовок та опис команди -->
+            <h2>Meet Our Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi. Ut ut felis congue nisl hendrerit commodo.</p>
+            <ul>
+                <li>
+                    <!-- Фотографія, ім'я та посада учасника команди -->
+                    <!-- <img src="" alt="" width="" height="" /> -->
+                    <h3>Team Members:</h3>
+                    <p>Sunny Khan - Executive Officer</p>
+                    <p>Alina Jesia - Executive Officer</p>
+                    <p>Alex Sohag - Business Development</p>
+                    <p>Josh Mou - Head of Marketing</p>
+                </li>
+                <!-- Додайте аналогічні елементи для інших членів команди -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+    </footer> <!-- Нижня частина сторінки -->
+</body>
+
+</html>
