@@ -1,0 +1,84 @@
+/* bootstrap container change */
+@media (min-width: 1200px) {
+	.container {
+	  max-width: 1170px;
+	  max-height: 100%;
+	}
+  }
+  
+  /* global */
+  .button {
+	border-radius: 5px;
+	background: var(
+	  --Gardient,
+	  linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+	);
+	border: none;
+  }
+  
+  .button a {
+	text-decoration: none;
+	color: #f9fafb;
+	font-size: 14px;
+	font-weight: 500;
+	transition: 0.3s ease;
+  }
+  
+  .button a:hover {
+	color: #cacaca;
+  }
+  
+  body {
+	background: url(../img/global__bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: "DM Sans";
+  }
+  
+  .container {
+	width: 1158px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	outline: 2px solid red;
+  }
+  
+  /*Information*/
+  
+  .information { 
+	
+	
+	/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+	/* Встановлюємо напрямок, у якому елементи розміщатимуться в колонку */
+   /* Встановлюємо відстань між елементами 100px. Використовуємо властивисть, яка відкривається завдяки flex */
+  }
+  
+  .information-2 {
+	/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+	/* Вирівнюємо елементи горизонтально по центру */
+	/* Вирівнюємо елементи вертикально по центру */
+  }
+  
+  .information-3 {
+	/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+	 /* Встановлюємо напрямок, у якому елементи розміщатимуться в ряду у зворотному порядку */
+	/* Вирівнюємо елементи горизонтально по центру */
+	/* Вирівнюємо елементи вертикально по центру */
+  }
+  
+  .inform-item {
+	/* Встановлюємо ширину елементів в 582px */
+  }
+  
+  .inform-title {
+	/* Задаємо жирність тексту заголовка якого значення 700*/
+	/* Задаємо розмір шрифту заголовка якого значення 42px */
+	/* Задаємо колір тексту заголовка якого значеня буде білий колір */
+   /* Задаємо внутрішний відступ знизу 32px */
+  }
+  
+  .inform-article {
+	/* Задаємо колір тексту заголовка якого значеня буде білий колір */
+   /* Задаємо внутрішний відступ знизу 30px */
+  }
